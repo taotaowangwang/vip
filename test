@@ -2,7 +2,7 @@ let obj = JSON.parse($response.body);
 obj.data.nickName = "kissme";
 obj.data.trialVip = 0;
 obj.data.vipTime = "2025-05-09 02:20:13";
-obj.vip.isVip = true;
+obj.data.vip.isVip = true;
 $done({
     body: JSON.stringify(obj)
 });
